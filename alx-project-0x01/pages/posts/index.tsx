@@ -25,7 +25,7 @@ const Posts: React.Fc<PostProps[]> = ({ posts}) => {
     )
 }
 
-export async funcction getStaticProps() {
+export async function getStaticProps() {
     const response = await
     fetch("https://jsonplaceholder.typicode.com/posts")
     const posts = await response.json()
