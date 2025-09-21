@@ -1,5 +1,6 @@
 import { UserProps } from "@/interfaces/index";
 import UserCard from "@/components/common/UserCard";
+import React from "react";
 
 interface UsersPageProps {
   posts: UserProps[];
